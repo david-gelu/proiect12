@@ -1,0 +1,774 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+}
+img{
+	max-width: 100%;
+}
+.navbar-default{
+	background: #f7a27e;
+	border:2px solid #f7a27e;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-weight: 700;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-weight: 700;
+}
+section
+{
+
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100vw;
+	height: 100vh; 
+    background-image: url(copac.png), radial-gradient(#333, #000) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center,top;
+    z-index: -1;
+}
+
+div .frunza
+{
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	overflow: hidden;
+}
+div .frunza .frunza2
+{
+	width: 100%;
+	height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+div .frunza .frunza3
+{
+	width: 100%;
+	height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+.frunza
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+    overflow: hidden;
+}
+
+
+.frunza div
+{
+	transform: scale(2);
+	position: absolute;
+	display: block;
+	overflow: hidden;
+}
+.frunza img
+{
+	width: 100%;
+	height: 100%;
+}
+.frunza div:nth-child(1)
+{
+	left: 20%;
+	animation: animate 15s linear infinite;
+	animation-delay: -7s;
+}
+.frunza div:nth-child(2)
+{
+	left: 30%;
+	animation: animate 24s linear infinite;
+}
+.frunza div:nth-child(3)
+{
+	left: 35%;
+	animation: animate 20s linear infinite;
+}
+.frunza div:nth-child(4)
+{
+	left: 43%;
+	animation: animate 35s linear infinite;
+	animation-delay: -15s;
+}
+.frunza div:nth-child(5)
+{
+	left: 66%;
+	animation: animate 29s linear infinite;
+}
+.frunza div:nth-child(6)
+{
+	left: 50%;
+	animation: animate 10s linear infinite;
+}
+.frunza div:nth-child(7)
+{
+	left: 73%;
+	animation: animate 16s linear infinite;
+	animation-delay: -7s;
+}
+.frunza div:nth-child(8)
+{
+	left: 85%;
+	animation: animate 13s linear infinite;
+}
+.frunza div:nth-child(9)
+{
+	left: 95%;
+	animation: animate 18s linear infinite;
+	animation-delay: -10s;
+}
+.frunza div:nth-child(10)
+{
+	left: 10%;
+	animation: animate 14s linear infinite;
+}
+.frunza div:nth-child(11)
+{
+	left: 0%;
+	animation: animate 22s linear infinite;
+}
+.frunza div:nth-child(12)
+{
+	left: 99%;
+	animation: animate 30s linear infinite;
+}
+.frunza div:nth-child(13)
+{
+	left: 85%;
+	animation: animate 13s linear infinite;
+}
+.frunza div:nth-child(14)
+{
+	left: 95%;
+	animation: animate 18s linear infinite;
+	animation-delay: -10s;
+}
+.frunza div:nth-child(15)
+{
+	left: 10%;
+	animation: animate 14s linear infinite;
+}
+.frunza div:nth-child(16)
+{
+	left: 0%;
+	animation: animate 22s linear infinite;
+}
+.frunza div:nth-child(17)
+{
+	left: 99%;
+	animation: animate 30s linear infinite;
+}
+.frunza div:nth-child(18)
+{
+	left: 99%;
+	animation: animate 30s linear infinite;
+}
+.frunza div:nth-child(19)
+{
+	left: 22%;
+	animation: animate 16s linear infinite;
+	animation-delay: -8s;
+}
+.frunza div:nth-child(20)
+{
+	left: 38%;
+	animation: animate 25s linear infinite;
+}
+.frunza div:nth-child(21)
+{
+	left: 34%;
+	animation: animate 21s linear infinite;
+}
+.frunza div:nth-child(22)
+{
+	left: 46%;
+	animation: animate 34s linear infinite;
+	animation-delay: -12s;
+}
+.frunza div:nth-child(23)
+{
+	left: 63%;
+	animation: animate 21s linear infinite;
+}
+.frunza div:nth-child(24)
+{
+	left: 52%;
+	animation: animate 11s linear infinite;
+}
+.frunza div:nth-child(25)
+{
+	left: 71%;
+	animation: animate 14s linear infinite;
+	animation-delay: -8s;
+}
+.frunza div:nth-child(26)
+{
+	left: 87%;
+	animation: animate 14s linear infinite;
+}
+.frunza div:nth-child(27)
+{
+	left: 96%;
+	animation: animate 17s linear infinite;
+	animation-delay: -18s;
+}
+.frunza div:nth-child(28)
+{
+	left: 14%;
+	animation: animate 12s linear infinite;
+}
+.frunza div:nth-child(29)
+{
+	left: 3%;
+	animation: animate 21s linear infinite;
+}
+.frunza div:nth-child(30)
+{
+	left: 97%;
+	animation: animate 28s linear infinite;
+}
+.frunza div:nth-child(31)
+{
+	left: 82%;
+	animation: animate 11s linear infinite;
+}
+.frunza div:nth-child(32)
+{
+	left: 94%;
+	animation: animate 17s linear infinite;
+	animation-delay: -19s;
+}
+.frunza div:nth-child(33)
+{
+	left: 15%;
+	animation: animate 13s linear infinite;
+}
+.frunza div:nth-child(34)
+{
+	left: 6%;
+	animation: animate 23s linear infinite;
+}
+.frunza div:nth-child(35)
+{
+	left: 94%;
+	animation: animate 35s linear infinite;
+}
+.frunza div:nth-child(36)
+{
+	left: 91%;
+	animation: animate 35s linear infinite;
+}
+.frunza div:nth-child(37)
+{
+	left: 89%;
+	animation: animate 24s linear infinite;
+}
+.frunza div:nth-child(38)
+{
+	left: 81%;
+	animation: animate 7s linear infinite;
+}
+.frunza div:nth-child(39)
+{
+	left: 93%;
+	animation: animate 13s linear infinite;
+	animation-delay: -13s;
+}
+.frunza div:nth-child(40)
+{
+	left: 14%;
+	animation: animate 15s linear infinite;
+}
+.frunza div:nth-child(41)
+{
+	left: 2%;
+	animation: animate 27s linear infinite;
+}
+.frunza div:nth-child(42)
+{
+	left: 29%;
+	animation: animate 41s linear infinite;
+}
+.frunza div:nth-child(43)
+{
+	left: 97%;
+	animation: animate 32s linear infinite;
+}
+.frunza div:nth-child(44)
+{
+	left: 94%;
+	animation: animate 24s linear infinite;
+}
+@keyframes animate
+{
+	0%
+	{
+		opacity: 0;
+		top: -10%;
+		transform: translateY(20px) rotateY(0deg);
+		transform: scale(0.5);
+	}
+	10%
+	{
+		opacity: 1;
+		transform: scale(1);
+	}
+	20%
+	{
+		transform: translateY(-20px) rotateY(45deg);
+		transform: scale(1.3);
+	}
+	40%
+	{
+		transform: translateY(20px) rotateY(90deg);
+		transform: scale(1.7);
+	}
+	60%
+	{
+		transform: translateY(-20px) rotateY(135deg);
+		transform: scale(1.3);
+	}
+	80%
+	{
+		transform: translateY(20px) rotateY(180deg);
+		transform: scale(1);
+	}
+	100%
+	{
+		top:110%;
+		transform: translateY(-20px) rotateY(225deg);
+		transform: scale(0.5);
+	}
+}
+.frunza .frunza2
+{
+	transform: scale(1) rotateY(230deg);
+    filter: blur(2px);
+    overflow: hidden;
+}
+.frunza2
+{
+    position: absolute;
+	top: 0;
+	left: 0;
+	transform: scale(1) rotateY(230deg);
+    filter: blur(2px);
+    overflow: hidden;
+}
+.frunza .frunza3
+{
+	transform: scale(0.5) rotateY(230deg);
+    filter: blur(4px);
+    position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}
+.frunza3
+{
+	transform: scale(0.5) rotateY(230deg);
+    filter: blur(4px);
+    position: absolute;
+    overflow: hidden;
+}
+
+.main
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 60vw;
+	box-shadow: 0px 0px 40px 0px black;
+	border: 1px solid black;
+	z-index: 1;
+}
+.main img
+{
+	width: 8.5vw;
+	float: left;
+	margin: 3vw;
+	transition: .5s;
+	border-radius: 50px;
+	box-shadow: 0px 2px 20px 5px black;
+	z-index: 1;
+
+}
+.main img:hover
+{
+	transform: scale(2);
+	z-index: 1;
+}
+.iarna
+{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-image: url(bgi.jpg);
+
+}
+
+                       /*Primavara*/
+
+.primavara
+{
+    
+	width: 100%;
+	height: 100%;
+	background-image: url(primavara.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.soare
+{
+	
+	z-index: -1;
+	animation: sunn 10s linear 1 ;
+	opacity: 1;
+	
+}
+.soare nth-child :before
+{
+	opacity: 1;
+	visibility: hidden;
+	animation-delay: 21s;
+}
+.soare nth-child :after
+{
+	opacity: 1;
+	visibility: hidden;
+	
+}
+@keyframes sunn
+{
+	0%
+	{
+		transform: scale(0.1);
+		transform: rotateX(120deg);
+		opacity: 0;
+		
+}		
+
+	
+	25%
+	{
+		transform: scale(0.1);
+		opacity: 0;
+}
+    50%
+	{
+		transform: scale(0.5);
+		opacity: 0.5;
+		
+}
+	75%
+	{
+		transform: scale(0.5);
+		opacity: 1;
+}
+	100%
+	{
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+.nori
+{
+	position: absolute;
+	margin-top:-7%;
+	padding: 0px;
+	width: 100%;
+    height: 12%;
+    z-index: -1;
+    animation: nor 20s ease-out 1;
+	opacity: 0;
+	
+}
+.nori img{
+	width: 12%;
+	height: 100%;
+	
+}
+.nor nth-child :before
+{
+	opacity: 0;
+	visibility: hidden;
+}
+@keyframes nor
+{
+    0%{
+    	right: 0%;
+    	opacity: 1;
+    	
+    } 
+    50%{
+    	right: 50%;
+
+    	opacity: 1;
+    }
+
+    100%{
+    	right: 100%;
+    	visibility: hidden;
+    	display: none;
+    	opacity: 1;
+
+    } 
+}
+.ploaie
+{
+	position: absolute;
+	background-image: url(ploaie.png);
+	z-index: -1;
+	margin-top:-1%;
+	width: 100%;
+    height: 100%;
+    animation: apa 0.7s ease-in-out 9;
+    opacity: 0;
+
+}
+.ploaie nth-child :before
+{
+	opacity: 0;
+	visibility: hidden;
+}
+@keyframes apa 
+{
+
+	0%
+	{
+		margin-top: -10%;
+		animation-duration: 1s;
+		opacity: 1;
+	}
+	50%
+	{
+		margin-top: 10%;
+		animation-duration: 1s;
+		opacity: 1;
+	}
+	99%
+	{
+		margin-top: 15%;
+		animation-duration: 1s;
+		
+		opacity: 1;
+	}
+	100%
+	{
+		margin-top: 20%;
+		animation-duration: 1s;
+		opacity: 0;
+		visibility: hidden;
+	}
+
+}
+.flori
+{
+	position: absolute;
+    width: 100%;
+    bottom:0;
+    z-index: -1;
+    animation: floare 5s ease-in 1 ;
+    
+    opacity: 1;
+}
+
+.flori img
+{
+	width: 10%;
+	padding-left:3%;
+}
+.flori nth-child :before
+{
+	opacity: 0;
+	visibility: hidden;
+}
+@keyframes floare 
+{
+
+	0%
+	{
+		margin-top: 38%;
+		opacity: 0;
+		animation-duration: 1s;
+		
+	}
+	50%
+	{
+		margin-top: 35%;
+		opacity: 1;
+		animation-duration: 1s;
+	}
+	100%
+	{
+		margin-top: 30%;
+		opacity: 1;
+		animation-duration: 1s;
+		margin-bottom: 0%;
+	}
+
+}
+
+                        /* Vara*/
+
+
+.vara{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+.plaja{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.plaja img{
+	width: 100%;
+	height: 100%;
+}
+.valuri{
+	width: 80%;
+	height: 80%;
+	position: relative;
+	margin-top:10%;
+	margin-left: 100%;
+	animation: mare 15s ease-in-out infinite;
+}
+.valuri img{
+	position: absolute;
+	width: 150%;
+	height: 150%;
+	left:30%;
+}
+@keyframes mare{
+	0%{
+		transform: scale(0.4);
+		margin-top:10%;
+	    margin-left: 10%;
+	}
+	50%{
+		transform: scale(1);
+		margin-top:0%;
+	    margin-left: 0%;
+	}
+	100%{
+		transform: scale(0.4);
+		margin-top:10%;
+	    margin-left: 10%;
+	}
+}
+.soare0{
+	position: absolute;
+	width: 25%;
+	height: 25%;
+	top: 10%;
+	left:40%;
+	animation: sun 6s ease-in-out infinite;
+	z-index:999999999999999999999999999999999999;
+}
+
+.soare0 img{
+	position: absolute;
+	width:60%;
+	height: 60%;
+
+	z-index:999999999999999999999999999999999999;
+}
+@keyframes sun {
+	0%{
+		transform: scale(1);
+		
+	}
+	
+	
+	50%{
+		transform: scale(1.3);
+	}
+	
+	100%{
+		transform: scale(1);
+	}
+}
+
+
+
+
+/* rezolutii diferite*/
+
+@media only screen and (max-width: 1023px) {
+
+.main
+{
+    width: 70vw;
+}
+
+.main img
+{
+	width: 10vw;
+	border-radius: 30px;
+}
+
+
+
+
+.flori img
+{
+	margin-top: 30%;
+}
+@media only screen and (max-width: 900px)
+{
+.main
+{
+    width: 70vw;
+}
+.main img
+{
+	width: 10vw;
+	border-radius: 20px;
+}
+}
+@media only screen and (max-width: 767px)
+{
+.main
+{
+    width: 90vw;
+}
+.main img
+{
+	width: 16vw;
+	border-radius: 10px;
+}
+.flori 
+{
+	bottom: 5%;
+}
+
+.nori
+{
+	margin-top: -45%;
+}
+.nori img
+{
+	width: 11%;
+}
+.iii{
+	margin-top: -20%;
+}
+}
